@@ -3,7 +3,7 @@ USER jovyan
 
 RUN git clone https://github.com/UK-Digital-Heart-Project/JupyterVTK.git
 
-WORKDIR myK3D-jupyter
+WORKDIR JupyterVTK
 
 RUN pip install jupyter-pip ipywidgets vtk k3d
 
